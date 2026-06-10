@@ -1,0 +1,39 @@
+/* General page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2e6ff;
+    color: #2d2438;
+}
+
+/* Keeps page content centered with spacing */
+header,
+main,
+footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Adds space between each portfolio section */
+.self-introduction,
+.aboutme,
+.experience,
+.certificates,
+.projects {
+    margin-bottom: 28px;
+}
+
+/* Profile image styling */
+.my-image img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Main heading colors */
+h1,
+h2 {
+    color: #5a2d82;
+}
